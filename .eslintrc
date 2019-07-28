@@ -1,0 +1,33 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "react",
+        "import"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:import/recommended"
+    ],
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "no-restricted-syntax": ["error", "never"],
+        "no-undef": 0,
+        "import/no-named-as-default": [0, "never"],
+        "import/prefer-default-export": [0, "never"],
+        "import/no-unresolved": [0, "never"],
+        "import/default": [0, "never"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/require-default-props": [0, "never"],
+        "react/jsx-uses-react": 1,
+        "react/jsx-tag-spacing": 0,
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "react/forbid-prop-types": [0]
+    }
+}
