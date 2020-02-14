@@ -74,6 +74,6 @@
         "react-select": "^3.0.4",
         "react-toastify": "^5.3.1",
         "store": "^2.0.12",
-        "yarn": "^1.17.3"
+        "yarn": "^1.22.0"
     }
 }
